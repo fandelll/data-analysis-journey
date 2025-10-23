@@ -1,3 +1,4 @@
+date: 10/22/2025
 import ... as .. e.g. import pandas as pd
 pd.DataFrame({'Yes': [50, 21], 'No': [131, 2]})
 pd.DataFrame({'Bob': ['I liked it.', 'It was awful.'], 
