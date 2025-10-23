@@ -10,4 +10,4 @@ wine_reviews.head() # grab the first 5 rows
 
 wine_reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv", index_col=0)
 wine_reviews.head()
-animals.to_csv("cows_and_goats.csv") #把一个数据存成csv格式
+animals.to_csv("cows_and_goats.csv") #save data to csv format
