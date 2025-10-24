@@ -8,9 +8,9 @@ IN(...) e.g. col_name IN (2, 4, 6)
 NOT IN(...) e.g. col_name NOT IN (1, 3, 5)
 FOR STRING:
 = e.g. col_name = "abc"
-!=, <, > e.g.col_name != "abcd"
-LIKE, e.g. col_name LIKE "ABC"
-NOT LIKE, e.g. 	col_name NOT LIKE "ABCD"
+!=, <, > e.g.col_name != "abcd" (case sensitive)
+LIKE, e.g. col_name LIKE "ABC" (case insensitive)
+NOT LIKE, e.g. 	col_name NOT LIKE "ABCD" 
 % e.g. col_name LIKE "%AT%" (matches "AT", "ATTIC", "CAT" or even "BATS")
 _ e.g. col_name LIKE "AN_" (matches "AND", but not "AN")
 IN (...) e.g. col_name IN ("A", "B", "C")
