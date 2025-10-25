@@ -8,4 +8,20 @@ Date: 10/24/2025
    Exercise 7: Question 1
    Sometimes the app doesn't have a FULL JOIN
 3. IS/IS NOT NULL
-   
+4. COUNT(*), COUNT(column)
+5. MIN(column)
+6. MAX(column)
+7. AVG(column)
+8. SUM(column)
+9. GROUP BY
+10. HAVING group_condition;
+11. SELECT DISTINCT column, AGG_FUNC(column_or_expression), …
+FROM mytable
+    JOIN another_table
+      ON mytable.column = another_table.column
+    WHERE constraint_expression
+    GROUP BY column
+    HAVING constraint_expression
+    ORDER BY column ASC/DESC
+    LIMIT count OFFSET COUNT;
+    Exercise 12
