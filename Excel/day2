@@ -1,0 +1,4 @@
+LEFT函数
+LEFT（文本，【提取字符的数量】）
+MID(text, start_num, num_chars)
+LEN(text)
