@@ -1,1 +1,6 @@
 control + shift + L 筛选
+SUMIF 函数 （对选择的数据区域中符合指定条件的值求和）
+SUMIF（条件判断所在区域，条件，【用来求和的数值区域】）
+IFERROR(value, value_if_error)
+SUMIFS多个条件进行（只用这个，方便后续加条件）
+绝对引用 command+T
