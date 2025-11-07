@@ -1,4 +1,5 @@
 LEFT函数
 LEFT（文本，【提取字符的数量】）
-MID(text, start_num, num_chars)
+MID(text, start_num, num_chars) (index 从1开始)
 LEN(text)
+find&select -> go to special -> blank -> function
