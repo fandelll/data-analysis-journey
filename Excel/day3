@@ -1,0 +1,6 @@
+10/7/2025
+VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+  1. 查找的数据区域首列要为匹配列
+  2. range_lookup, 1/TRUE(近似匹配), 0/False（精确匹配）
+文本*1，强转为数值
+数值&“”，强转为文本
